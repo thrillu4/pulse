@@ -1,0 +1,47 @@
+.footer {
+    margin-top: 50px;
+    height: 630px;
+    position: relative;
+    &__content {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background: $main-color;
+        padding: 50px 54px 56px 54px;
+    }
+    &__addr {
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 36px;
+        line-height: 20px;
+    }
+    &__phone {
+        display: block;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 36px;
+        line-height: 20px;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        &_item {
+            margin: 0 15px;
+            width: 52px;
+            height: 52px;
+            transition: 0.4s all;
+            &:hover {
+                border-radius: 100%;
+                box-shadow: 2px 2px 10px 0 #ffffff, -2px -2px 3px 0 rgb(255, 255, 255), 2px 2px 15px 0 rgb(255, 255, 255);
+            }
+        }
+    }
+}

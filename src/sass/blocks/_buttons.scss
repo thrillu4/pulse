@@ -1,0 +1,32 @@
+.button {
+    margin-top: 7px;
+    width: 153px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: $main-color;
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    &__main {
+        margin-top: 65px;
+        width: 303px;
+        height: 54px;
+        border-radius: 5px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    &__consult {
+        margin-top: 20px;
+    }
+    &__mini {
+        width: 135px;
+        height: 44px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
