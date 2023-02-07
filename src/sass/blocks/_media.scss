@@ -17,6 +17,9 @@
     }
 }
 @media (max-width: 767px) {
+    .modal {
+        width: 340px;
+    }
     .footer {
         &__content {
             width: 350px;
@@ -79,6 +82,16 @@
     }
 }
 @media (max-width: 576px) {
+    .pageup {
+        width: 30px;
+        height: 30px;
+        right: 30px;
+        bottom: 20px;
+    }
+    .modal {
+        width: 200px;
+        min-height: auto;
+    }
     .footer {
         &__content {
             width: 200px;
@@ -86,7 +99,7 @@
         }
         &__social_item {
             margin: 0 10px;
-            
+
         }
     }
     .container {

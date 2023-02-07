@@ -36,4 +36,12 @@
             color: #FF0000;
         }
     }
+    &__icon {
+        &_heart {
+            animation: heartbeat 1s linear infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
