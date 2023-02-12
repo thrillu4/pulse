@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 900,
-        prevArrow: '<button type="button" class="slick-prev"><img src="icons/right.png" alt="slick" /></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="icons/left.png" alt="slick" /></button>'
+        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/right.png" alt="slick" /></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="../icons/left.png" alt="slick" /></button>'
       });
 
       $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
